@@ -28,6 +28,7 @@ export default function HeroLanding({ video }: HeroProps) {
             autoPlay
             muted
             loop
+            playsInline
             typeof='video/mp4'
           >
 
