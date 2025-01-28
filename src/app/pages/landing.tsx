@@ -1,7 +1,6 @@
 "use client"
 
-import Image from 'next/image';
-import logo from '../assets/images/2.png'
+
 import { useEffect, useRef } from 'react';
 
 type HeroProps = {
@@ -20,6 +19,8 @@ export default function HeroLanding({ video }: HeroProps) {
 
 
   return (
+
+
     <div className="hero-landing">
       <div className='hero-video'>
 
@@ -35,32 +36,39 @@ export default function HeroLanding({ video }: HeroProps) {
           </video>
 
           <div className='overlay'>
-            <div className="div-block ">
-              <Image
-                src={logo}
-                alt=""
-                className='image-logo'
-                width={358}
+            <div className="">
+              <div className="container mx-auto px-4">
+                <p className="
+    absolute 
+    text-sm md:text-base lg:text-lg 
+    text-white
+    w-full md:w-auto md:max-w-md
+    left-1/2 md:left-auto
+    transform -translate-x-1/2 md:translate-x-0
+    top-20 md:top-40 md:right-8
+    text-center md:text-left
+    px-4 md:px-0
+  ">
+                  At Joy Cole Property Investments, we see opportunities. Every property is a strategic stepping stone to your financial dreams, carefully curated to align with your unique investment goals.
+                </p>
+              </div>
 
-              // sizes="(max-width: 479px) 51vw, 13vw"
-              />
-              <p className="sub-text">
-                At Joy Cole Property Investments, we see opportunities. Every property is a strategic stepping stone to your financial dreams, carefully curated to align with your unique investment goals.
-                <br />  <br />
-                <a href="#" className="button-primary">
-                  Connect with us!
-                </a>
-              </p>
+
 
             </div>
 
           </div>
         </div>
-        <div>
-        </div>
 
 
       </div>
-    </div >
+
+    </div>
+
+
+
+
+
+
   );
 }
