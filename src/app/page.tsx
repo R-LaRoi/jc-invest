@@ -3,6 +3,7 @@
 import Navbar from "./components/navbar";
 import HeroLanding from "./pages/landing";
 import TwoColumnSection from "./components/sectionMain";
+import { Footer } from "./components/footer";
 import image2 from './assets/images/property2.jpg'
 import { profileSummary } from "./assets/text";
 const heroVideo = "https://github.com/user-attachments/assets/98badbb6-8bd6-4009-aca4-9d218884d8fe"
@@ -31,6 +32,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Footer />
     </>
 
   );

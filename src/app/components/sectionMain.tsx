@@ -37,13 +37,13 @@ export default function TwoColumnSection({
       </div>
 
       <div className="w-full md:w-1/2 max-w-lg space-y-8 p-8">
-        <h2 className="text-5xl font-bold text-gray-600 text-center md:text-left pb-2 border-b-[2px]  border-[#8a95a4] w-[60%] inline-block">
+        <h2 className="text-5xl font-bold text-gray-600 text-left pb-2 border-b-[2px] border-[#8a95a4] w-[60%] inline-block">
           {header}
         </h2>
-        <p className="text-m text-gray-600 leading-relaxed text-center md:text-left">
+        <p className="text-m text-gray-600 leading-relaxed md:text-left">
           {description}
         </p>
-        <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+        <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 ">
           {primaryButtonText && (
             <button
               className="bg-[#8a95a4] text-white px-6 py-3  hover:bg-blue-600 transition w-full sm:w-auto"
